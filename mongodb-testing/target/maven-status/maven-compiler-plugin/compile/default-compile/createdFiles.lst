@@ -1,0 +1,4 @@
+mongodb\testing\models\StudentDetails.class
+mongodb\testing\MongodbTestingApplication.class
+mongodb\testing\rep\StudentRepository.class
+mongodb\testing\controller\ProFlow.class

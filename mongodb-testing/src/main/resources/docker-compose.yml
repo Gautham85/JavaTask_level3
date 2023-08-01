@@ -1,0 +1,14 @@
+version: "3"
+services:
+  gauthammongodb:
+    image: mongo:latest
+    container_name: "gauthammongodb"
+    ports:
+      - 27017:27017
+  springboot-mongo-docker:
+    image: springboot-mongo-docker:latest
+    container_name: springboot-mongo
+    ports:
+      - 8080:8080
+    links:
+      - gauthammongodb
